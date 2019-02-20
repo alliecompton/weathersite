@@ -15,7 +15,7 @@ body {
     width: auto;
     height: 150px;
     float: right;
-     display: inline;
+     display: inline-block;
 }
     
 h1 {
