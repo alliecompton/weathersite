@@ -1,0 +1,92 @@
+body {
+    background-color: #BBC7A4;
+    font-family: "Average Sans", sans-serif;
+    margin: 0;
+   
+
+}
+header {
+    background-color: #E75A7C;
+    display: block;
+    
+}
+
+header a{
+    width: 15%;
+    font-size: 1.25em;
+    text-decoration:none;
+    color: black;
+    
+    
+}
+
+nav{
+    display: none;
+    background-color: #2C363F;
+}
+
+h1 {
+    font-family: "Architects Daughter", handdrawn;
+    font-size: 1.25em;
+    display: inline-block;
+    width: 85%;
+    margin-left: .5em;
+
+}
+
+h2{
+    display: inline-block;
+    margin-bottom:0;
+    text-indent:.5em;
+}
+
+h3{
+    margin-top:0;
+    text-indent: .5em;
+}
+
+.town{
+    text-align:left;
+    
+}
+.temperature{
+  
+  
+    text-align: right;
+
+}
+
+ul{
+    list-style-type: none;
+    text-align: right;
+    margin:.5em;
+}
+li{
+    margin-bottom: .5em;
+}
+a {
+    text-decoration:none;
+    color: white;
+    padding:.25em;
+    
+}
+
+a:hover {
+    background-color: #D6DBD2;
+}
+.rectangle{
+    width: 100%;
+    height: 55%;
+    background-color: #F2F5EA;
+}
+
+.mainarticle{
+    width:66%;
+    padding: .5em;
+}
+
+.verticlebanner {
+
+    max-width = 33%;
+}
+
