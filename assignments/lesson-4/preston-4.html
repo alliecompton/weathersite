@@ -1,0 +1,57 @@
+<! DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>
+            Town Page
+        </title>
+        <meta name="description" content="Weather Site content for assignment for Alyssa Clark in CIT230 (Web Front-End Development) at BYU-Idaho">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1> My Unpredictable Weather
+            </h1>
+            <a href="#" onclick="openNav()">&#9776;</a>
+        </header>
+        <nav id="nav">
+                <a href = "#" onclick="closeNav()">&times;</a>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact</a></li>
+        
+            
+        </ul>
+        </nav>
+            <main>
+                <h2 class ="town">
+                    Town 
+                </h2>
+                <h2 class ="temperature"> 0&deg;
+                </h2>
+                <h3>00&#37; Chance of Rain
+                </h3>
+                    <div class="rectangle"><a href="#"><!-- This will become a link to the Doppler radar--></a>
+                    </div>
+                <article class="mainarticle">
+                    <h3>Article Title</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu diam. Pellentesque rhoncus aliquam mattis. Ut vulputate eros sed felis sodales nec vulputate justo hendrerit. Vivamus varius pretium ligula, a aliquam odio euismod sit amet. Quisque laoreet sem sit amet orci ullamcorper at ultricies metus viverra. Pellentesque arcu </p>
+                </article>
+                <img src="#" class = "verticlebanner"> <!-- A verticle banner image will go next to the article--></img>
+                </main>
+        <footer>
+            <p>&copy; My Unpredictable Weather 2019 
+                    <a href="assignments/lesson-4/weathersiteplan.pdf">Weather Site Plan</a>
+        </footer>
+        <script>function openNav() {
+            document.getElementById("nav").style.display = "block";
+          }
+          
+        function closeNav() {
+            document.getElementById("nav").style.display = "none";
+        }</script>
+    </body>
+</html>
